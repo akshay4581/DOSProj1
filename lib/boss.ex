@@ -1,6 +1,7 @@
 defmodule Boss do
   def run(n,k) do
-   num_proc = min(n, 8)
+  #  num_proc = min(n, 8)
+   num_proc = :erlang.system_info(:logical_processors_available)
 
     batch = div(n, num_proc)
     IO.puts "batch size= #{batch}"

@@ -34,6 +34,8 @@ Largest problem that we managed to solve in reasonable time:
 10000000 4
 (Refer to Largest Problem.png)
 
+The number of threads used is the number of logical processes available in the computer. Using this number of threads takes the least time to compute.
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed

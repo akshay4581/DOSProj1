@@ -11,6 +11,6 @@
      end
      def inp_console(n,k) do
        {time,_} = :timer.tc(Boss, :run,[n,k])
-       IO.puts "time = #{time/1000000}"
+      #  IO.puts "time = #{time/1000000}"
      end
    end
